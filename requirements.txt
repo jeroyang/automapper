@@ -1,3 +1,4 @@
 future>=0.15.2
 acora>=2.0
 txttk>=0.8.6
+lxml
