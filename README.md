@@ -5,17 +5,21 @@
 
 Give two fmarkup formats of the same document, automatically generate the rules of data mapping.
 
+## Features
+  TODO
+
 ## Installation
 
 At the command line:
 
 ```bash
-    $ pip install automapper
+    $ pip install - U automapper
+```
 
-
-## Features
-
-
+## Usage
+```python
+    from {{ cookiecutter.repo_name }} import *
+    
+```
 ## License
 * Free software: MIT license
-* Documentation: https://automapper.readthedocs.org.
