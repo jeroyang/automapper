@@ -13,12 +13,12 @@ Give two markup formats of the same document, automatically generate the rules o
 At the command line:
 
 ```bash
-    $ pip install - U automapper
+$ pip install - U automapper
 ```
 
 ## Usage
 ```python
-    from automapper import *
+from automapper import *
     
 ```
 ## License
