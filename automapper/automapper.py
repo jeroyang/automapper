@@ -6,7 +6,15 @@ from __future__ import (absolute_import, division,
 from builtins import *
 
 import re
-from html import unescape
+
+try:
+    # python 3.4+
+    from html import unescape
+except:
+    # Python 2.6-2.7 
+    from HTMLParser import HTMLParser
+    h = HTMLParser()
+    unescape = h.unescape
 from collections import OrderedDict
 
 from lxml import etree
