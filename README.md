@@ -18,7 +18,7 @@ At the command line:
 
 ## Usage
 ```python
-    from {{ cookiecutter.repo_name }} import *
+    from automapper import *
     
 ```
 ## License
