@@ -78,3 +78,5 @@ class TestModel(unittest.TestCase):
         wanted = [(1.0, 0, '/html/body/p[2]'),
                  (1.0, 1, '/html/body/p[1]')]
         self.assertEqual(result, wanted)
+        
+        

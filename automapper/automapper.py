@@ -11,7 +11,7 @@ from collections import OrderedDict
 
 from lxml import etree
 
-from longest_common_subsequence import lcs
+from automapper.longest_common_subsequence import lcs
 
 def strip_tags(markup):
     """
